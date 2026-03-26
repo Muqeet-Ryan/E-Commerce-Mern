@@ -1,5 +1,5 @@
 import express from "express";
-import { getAllProducts, getFeaturedProducts, createProduct, deleteProduct,getRecomendations,getProductsByCategory } from "../controllers/product.controllers.js";
+import { getAllProducts, getFeaturedProducts, createProduct, deleteProduct,getRecomendations,getProductsByCategory, toggleFeaturedProduct } from "../controllers/product.controllers.js";
 import {protectRoute,adminRoute} from "../middlewares/auth.middleware.js"
 
 
